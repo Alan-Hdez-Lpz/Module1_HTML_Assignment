@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+        <p>This page has information about me!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <article>
+            <h3>Who I Am</h3>
+            <p>Hi! I'm Alan, a software developer. I enjoy learning new tech.</p>
+        </article>
+    </section>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <img src="profile.jpg" alt="A portrait of Alan smiling" width="300">
+        <br><br>
+        <video controls width="320" height="240">
+            <source src="intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br><br>
+        <audio controls>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Watching movies</li>
+            <li>Working out</li>
+            <li>Coding small projects</li>
+            <li>Learning languages</li>
+        </ul>
+
+        <h3>Genres of movies in order of preference</h3>
+        <ol>
+            <li>Science Fiction</li>
+            <li>Action</li>
+            <li>Comedy</li>
+            <li>Animation</li>
+        </ol>
+    </section>
+
+    <section id="schedule">
+        <h2>My Weekly Schedule</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Day</th>
+                <th>Morning</th>
+                <th>Afternoon</th>
+                <th>Evening</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Workout</td>
+                <td>Study</td>
+                <td>Watch TV</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Read</td>
+                <td>Team Meeting</td>
+                <td>Project Coding</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Gym</td>
+                <td>Coursework</td>
+                <td>Cinema</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Walk</td>
+                <td>Study</td>
+                <td>Watch TV</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Workout</td>
+                <td>Send Emails</td>
+                <td>Watch a Movie</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Outdoor Activity</td>
+                <td>Free Time</td>
+                <td>Hang out with Friends</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Rest</td>
+                <td>Plan for Week</td>
+                <td>Family Dinner</td>
+            </tr>
+        </tbody>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <p>Preferred Contact Method:</p>
+            <input type="radio" id="contact-email" name="contact" value="email">
+            <label for="contact-email">Email</label>
+
+            <input type="radio" id="contact-phone" name="contact" value="phone">
+            <label for="contact-phone">Phone</label><br><br>
+
+            <p>Section you would like to talk about:</p>
+            <input type="checkbox" id="section1" name="section-of-interest" value="about">
+            <label for="section1">About Me</label>
+
+            <input type="checkbox" id="section2" name="section-of-interest" value="profile">
+            <label for="section2">Profile</label>
+            
+            <input type="checkbox" id="section3" name="section-of-interest" value="hobbies">
+            <label for="section3">Hobbies</label>
+
+            <input type="checkbox" id="section4" name="section-of-interest" value="schedule">
+            <label for="section4">Schedule</label>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alan's Webpage. All rights reserved.</p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
